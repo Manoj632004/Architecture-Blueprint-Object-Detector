@@ -44,5 +44,4 @@ api = gr.Interface(
     live=False
 )
 
-# Launch locally or on Hugging Face Space
 api.launch()
