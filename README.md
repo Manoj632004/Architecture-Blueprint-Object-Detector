@@ -1,6 +1,4 @@
-# Object Detection on Custom Dataset (Doors & Windows)
-
-This project focuses on detecting doors and windows using a custom-labeled dataset with the YOLOv8 model family. The workflow includes manual annotation, preprocessing, data augmentation, training with different YOLO models, and evaluating performance metrics.
+YOLOv8-based object detection model for identifying doors and windows in architectural blueprints. Developed as part of an assignment for Palcode.ai.
 
 ---
 
