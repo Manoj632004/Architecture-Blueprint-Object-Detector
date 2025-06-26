@@ -9,7 +9,6 @@ YOLOv8-based object detection model for identifying doors and windows in archite
 
 ![Manual Labeling](https://github.com/user-attachments/assets/33c556ed-dc79-44bc-b46b-3f6674b68854)
 
----
 
 ## 📁 Step 2: Dataset Preparation & Augmentation
 
@@ -19,7 +18,7 @@ YOLOv8-based object detection model for identifying doors and windows in archite
   - Validation set: 4 images
 
 ### ✅ Preprocessing
-- Auto-orient: ✅
+- Auto-orient:
 - Resize: **Stretched to 1024×1024**
 
 ### 🔁 Augmentations
@@ -34,8 +33,6 @@ YOLOv8-based object detection model for identifying doors and windows in archite
 Two dataset versions were exported for evaluation:
 - `640×640` resolution
 - `1024×1024` resolution
-
----
 
 ## 🤖 Step 3: Model Training & Evaluation
 
