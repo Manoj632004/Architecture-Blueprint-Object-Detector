@@ -49,19 +49,6 @@ Three models were trained and evaluated for performance:
 
 > After repeated fine-tuning, **YOLOv8n** delivered the best results in terms of precision and bounding box accuracy.
 
----
-
-## 📝 Summary
-
-- Labeled with Roboflow  
-- Augmented with robust transformations  
-- Trained on YOLOv8n  
-- Ready for deployment as an ONNX model
-
----
-
-
-
 ![image](https://github.com/user-attachments/assets/dcb72ece-60cd-4e4e-8db8-604cbad8c567)
 
 Run Flask API:
