@@ -2,7 +2,7 @@ YOLOv8-based object detection model for identifying doors and windows in archite
 
 ---
 
-## 🔧 Step 1: Manual Labeling
+## Step 1: Manual Labeling
 
 - Dataset manually labeled using **[Roboflow](https://roboflow.com)**.
 - Classes: `door`, `window`.
@@ -10,18 +10,18 @@ YOLOv8-based object detection model for identifying doors and windows in archite
 ![Manual Labeling](https://github.com/user-attachments/assets/33c556ed-dc79-44bc-b46b-3f6674b68854)
 
 
-## 📁 Step 2: Dataset Preparation & Augmentation
+## Step 2: Dataset Preparation & Augmentation
 
 - **Total images**: 20
 - **Train/Validation Split**:  
   - Training set: 16 images  
   - Validation set: 4 images
 
-### ✅ Preprocessing
+### Preprocessing
 - Auto-orient:
 - Resize: **Stretched to 1024×1024**
 
-### 🔁 Augmentations
+### Augmentations
 - Outputs per training image: **3**
 - 90° Rotate: Clockwise, Counter-clockwise, Upside-down
 - Random Rotation: Between -15° and +15°
@@ -29,12 +29,12 @@ YOLOv8-based object detection model for identifying doors and windows in archite
 - Exposure Adjustment: ±10%
 - Noise: Up to 0.1% of pixels
 
-### 📦 Exports
+### Exports
 Two dataset versions were exported for evaluation:
 - `640×640` resolution
 - `1024×1024` resolution
 
-## 🤖 Step 3: Model Training & Evaluation
+## Step 3: Model Training & Evaluation
 
 Three models were trained and evaluated for performance:
 
