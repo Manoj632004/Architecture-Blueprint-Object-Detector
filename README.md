@@ -1,6 +1,5 @@
 YOLOv8-based object detection model for identifying doors and windows in architectural blueprints. Developed as part of an assignment for Palcode.ai.
 
----
 
 ## Step 1: Manual Labeling
 
